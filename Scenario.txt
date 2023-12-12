@@ -1,0 +1,58 @@
+---- Why we need TS ?
+   - Improve dev experience.
+   - Easy to debug
+   - More descriptive than JS. ex - we know the datatypes which overall improves redaiblity.
+   - Is to maintain
+   - To much to write compared to JS.
+
+---- Datatyes in TS / JS 
+   - number -> example : 11, 12 , -12312, 12341314 , 0
+   - string -> example : "EKCS" , 'EKCS', `EKCS` (this is called template literal)
+   - boolean -> example : true , false
+   - void -> Void is a return type, (Means it is used on function to denote that the fucntion won't return any value )
+   - any -> You can use this to automatically detect the type of a data.
+
+
+---- Functions, parameter and Return type
+   - void 
+   - any
+   - other general datatype
+
+************************************************************
+
+--- Angular Structure
+    -- All the angular code is written inside app folder
+    -- Components -> Small piece of code that can be reused by other component 
+    -- Functions and Events
+
+    **** Counter App ****
+
+--- Improving Counter App
+    -- We changed the counter app to an cart app
+    -- We added logic to notify user about the cart status
+
+--- Angular Derectives 
+    -- @if(){} -> We used it to implement logic into our html file
+
+--- Basic Events
+    -- (click)
+    -- Basic ecomm cart functionality
+
+*************************************************************
+
+--- Angular Form
+    -- Taking input form user using the traditional method (#variableName)
+    -- How to do basic validation -> we take only the right data ( Handeling Edge Cases )
+    -- Displaying Data to HTML ( Data Binding )
+
+    **** Form Hw ****
+
+--- Create a form which takes two inputs.
+    -- First input username.
+    -- second input of password.
+    -- when user clicks on submit button log the username and password to console.
+
+    -- Optional -> Edge Case Handeling
+        - Username should only contain alphabets.
+        - Pasword lenght must be greater than or equal 6
+        - You should also have a show password
